@@ -13,7 +13,7 @@
     <title>risposta</title>
 </head>
 <body>
-    <h1>Ecco il tuo testo <?php echo $password."".$text; ?><h1>
+    <h1>Ecco il tuo testo <?php echo $password."".$Testo; ?><h1>
         
 </body>
 </html>
