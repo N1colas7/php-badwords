@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,10 @@
     <title>PHP-BADWORDS</title>
 </head>
 <body>
-    
+    <form action="./risposta.php" method="GET">
+        <input type="password" name="password" id="Username" placeholder="Username">
+        <input type="text" name="Testo" id="Testo" placeholder="Testo">
+        <button type="submit">Invia</button>
+    </form>
 </body>
 </html>
