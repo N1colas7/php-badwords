@@ -1,7 +1,9 @@
 <?php
 
-    $password = $_GET('password');
-    $Testo = $_GET('Testo');
+    $password = $_POST['password'];
+    $Testo = $_POST['Testo'];
+    $my_string = str_replace('Ciao','***',$Testo )
+
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +15,13 @@
     <title>risposta</title>
 </head>
 <body>
-    <h1>Ecco il tuo testo <?php echo $password."".$Testo; ?><h1>
-        
+    <div>
+        <h1>Ecco il tuo testo <?php echo $my_string ?><h1>
+        <h1>Il paragrafo è lungo <?php echo strlen($Testo)?> caratteri</h1>
+    </div>
+    <div>
+        <h1>Ecco il tuo testo <?php echo $Testo ?><h1>
+        <h1>Il paragrafo è lungo <?php echo strlen($Testo)?> caratteri</h1>
+    </div>   
 </body>
 </html>

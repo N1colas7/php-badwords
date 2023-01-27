@@ -9,9 +9,9 @@
     <title>PHP-BADWORDS</title>
 </head>
 <body>
-    <form action="./risposta.php" method="GET">
-        <input type="password" name="password" id="Username" placeholder="Username">
+    <form action="./risposta.php" method="POST">
         <input type="text" name="Testo" id="Testo" placeholder="Testo">
+        <input type="password" name="password" id="password" placeholder="password">
         <button type="submit">Invia</button>
     </form>
 </body>
